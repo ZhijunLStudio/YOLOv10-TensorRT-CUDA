@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CMake: Debug yolov8_deserialize",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/yolov8_final",
+            "args": [
+                "-d",
+                "/home/lzj/04.det/tensorrtx/yolov8/checkpoints/yolov8n-5-2.engine",
+                "/home/lzj/04.det/tensorrtx/yolov8/images",
+                "g"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake: Clean and Build yolov8_final",
+            "miDebuggerPath": "/usr/bin/gdb"
+        }
+    ]
+}
