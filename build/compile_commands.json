@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/include -I/usr/local/cuda/include -I/opt/TensorRT-8.6.1.6/include -isystem /usr/local/include/opencv4 -g -std=gnu++17   -O2 -pthread -o CMakeFiles/yolov10.dir/yolov10_infer.cpp.o -c /home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/yolov10_infer.cpp",
+  "file": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/yolov10_infer.cpp",
+  "output": "CMakeFiles/yolov10.dir/yolov10_infer.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/yolov10.dir/includes_CUDA.rsp -g -std=c++17 \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\"   -O2 -pthread -x cu -c /home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/src/kernel_function.cu -o CMakeFiles/yolov10.dir/src/kernel_function.cu.o",
+  "file": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/src/kernel_function.cu",
+  "output": "CMakeFiles/yolov10.dir/src/kernel_function.cu.o"
+},
+{
+  "directory": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/build",
+  "command": "/usr/bin/c++  -I/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/include -I/usr/local/cuda/include -I/opt/TensorRT-8.6.1.6/include -isystem /usr/local/include/opencv4 -g -std=gnu++17   -O2 -pthread -o CMakeFiles/yolov10.dir/src/postprocess.cpp.o -c /home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/src/postprocess.cpp",
+  "file": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/src/postprocess.cpp",
+  "output": "CMakeFiles/yolov10.dir/src/postprocess.cpp.o"
+},
+{
+  "directory": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/yolov10.dir/includes_CUDA.rsp -g -std=c++17 \"--generate-code=arch=compute_89,code=[compute_89,sm_89]\"   -O2 -pthread -x cu -c /home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/src/preprocess.cu -o CMakeFiles/yolov10.dir/src/preprocess.cu.o",
+  "file": "/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/src/preprocess.cu",
+  "output": "CMakeFiles/yolov10.dir/src/preprocess.cu.o"
+}
+]

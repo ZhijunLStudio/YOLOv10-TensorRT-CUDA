@@ -1,0 +1,1 @@
+-I"/home/ubuntu/04.det/YOLOv10-TensorRT-CUDA/include" -I/usr/local/cuda/include -I"/opt/TensorRT-8.6.1.6/include" -isystem /usr/local/include/opencv4
